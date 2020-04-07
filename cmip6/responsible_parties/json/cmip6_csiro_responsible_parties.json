@@ -1,0 +1,142 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "csiro", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "Mackallah,C", 
+            "name": "Chloe Mackallah", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "chloe.mackallah@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Dix,M", 
+            "name": "Martin Dix", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "martin.dix@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Bi,D", 
+            "name": "Dave Bi", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "dave.bi@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Harman,I", 
+            "name": "Ian Harman", 
+            "is_organisation": false, 
+            "address_postal": "Building 101, Clunies Ross Street\nBlack Mountain ACT 2601\nAustralia", 
+            "address_email": "ian.harman@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Marsland,S", 
+            "name": "Simon Marsland", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "simon.marsland@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Dobrohotoff,P", 
+            "name": "Peter Dobrohotoff", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "peter.dobrohotoff@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Sullivan,A", 
+            "name": "Arnold Sullivan", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "arnold.sullivan@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Ofarrell,S", 
+            "name": "Siobhan O'Farrell", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "siobhan.o'farrell@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Wang,Y", 
+            "name": "Yingping Wang", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "yingping.wang@csiro.au", 
+            "url": null, 
+            "orcid": "https://orcid.org/0000-0002-4614-6203"
+        }, 
+        {
+            "mnemonic": "Ziehn,T", 
+            "name": "Tilo Ziehn", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "tilo.ziehn@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Chamberlain,M", 
+            "name": "Matthew Chamberlain", 
+            "is_organisation": false, 
+            "address_postal": "Castray Esplanade\nBattery Point Tas 7004\nAustralia ", 
+            "address_email": "matthew.chamberlain@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Lenton,A", 
+            "name": "Andrew Lenton", 
+            "is_organisation": false, 
+            "address_postal": "Castray Esplanade\nBattery Point Tas 7004\nAustralia ", 
+            "address_email": "andrew.lenton@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "Law,R", 
+            "name": "Rachel Law", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "rachel.law@csiro.au", 
+            "url": null, 
+            "orcid": "https://orcid.org/0000-0002-7346-0927"
+        }, 
+        {
+            "mnemonic": "Woodhouse,M", 
+            "name": "Matthew Woodhouse", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "matthew.woodhouse@csiro.au", 
+            "url": null, 
+            "orcid": null
+        }, 
+        {
+            "mnemonic": "CSIRO", 
+            "name": "CSIRO", 
+            "is_organisation": false, 
+            "address_postal": "107 - 121 Station Street\nAspendale Vic 3195\nAustralia", 
+            "address_email": "csiroenquiries@csiro.au", 
+            "url": "https://research.csiro.au/access/", 
+            "orcid": null
+        }
+    ]
+}

@@ -2,5 +2,377 @@
     "mipEra": "cmip6", 
     "institute": "csiro", 
     "seedingSource": "Spreadsheet", 
-    "content": []
+    "content": [
+        {
+            "mnemonic": "seaice_1", 
+            "doi": "10.1029/1999JC000113", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "seaice_2", 
+            "doi": "10.1175/1520-0485(1997)027<1849:AEVPMF>2.0.CO;2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "seaice_3", 
+            "doi": "10.1175/1520-0493(2004)132<1341:MSITUI>2.0.CO;2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "seaice_4", 
+            "doi": "10.1029/2005JC003355", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "seaice_5", 
+            "doi": "10.1029/JC080i033p04514", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "seaice_6", 
+            "doi": "10.1029/1999JC900100", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "seaice_7", 
+            "doi": "10.1029/92JC01755", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "seaice_8", 
+            "doi": "10.1029/2009JC005568", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "seaice_9", 
+            "doi": "10.5194/gmd-4-223-2011", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "seaice_10", 
+            "doi": null, 
+            "bibtex": "\"@article{bi2013access,\n  title={ACCESS-OM: the ocean and sea-ice core of the ACCESS coupled model},\n  author={Bi, Daohua and Marsland, Simon J and Uotila, Petteri and O\u2019Farrell, Siobhan and Fiedler, Russell and Sullivan, Arnold and Griffies, Stephen M and Zhou, Xiaobing and Hirst, Anthony C}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol_top_1", 
+            "doi": null, 
+            "bibtex": "\"@article{johnson2011unified,\n  title={Unified Model Documentation Paper 020: CLASSIC Aerosol Scheme Version 5},\n  author={Johnson, CE and Bellouin, N and Davison, PS and Jones, A and Rae, JGL and Roberts, DL and Woodage, MJ and Woodward, S and Ordonez, C and Savage, NH},\n  journal={Met Office, Exeter, UK},\n  year={2011}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol_transport_1", 
+            "doi": "10.1256/qj.04.101", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol_transport_2", 
+            "doi": "10.1175/1520-0493(1990)118<1483:AMFCSW>2.0.CO;2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol_transport_3", 
+            "doi": "10.1175/1520-0493(2000)128<3187%3AANBLMS>2.0.CO%3B2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol_emissions_1", 
+            "doi": "10.1023/A:1022139814102", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol_emissions_2", 
+            "doi": "10.1029/2000JD900795", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol_emissions_3", 
+            "doi": "10.1029/98JD02091", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol__optical_1", 
+            "doi": "10.1002/qj.49712253107", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol__optical_2", 
+            "doi": "10.1016/S0022-4073(03)00146-8", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol__optical_3", 
+            "doi": "10.1029/92JD01419", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol__optical_4", 
+            "doi": "10.1002/qj.647", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "aerosol_model_1", 
+            "doi": null, 
+            "bibtex": "\"@article{bellouin2007improved,\n  title={Improved representation of aerosols for HadGEM2},\n  author={Bellouin, N and Boucher, O and Haywood, J and Johnson, C and Jones, A and Rae, J and Woodward, S},\n  journal={Met Office Hadley Centre Technical Note},\n  volume={73},\n  year={2007}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_top_1", 
+            "doi": "10.1256/qj.04.101", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_top_2", 
+            "doi": "10.1002/qj.647", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_rad_1", 
+            "doi": "10.1002/qj.49712253107", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_rad_2", 
+            "doi": "10.1175/1520-0493(1990)118<1483%3AAMFCSW>2.0.CO%3B2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_rad_3", 
+            "doi": "10.1175/1520-0493(2000)128<3187%3AANBLMS>2.0.CO%3B2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_micro_1", 
+            "doi": "10.1002/qj.49712555707", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_cloud_1", 
+            "doi": "10.1002/qj.333", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_cloud_2", 
+            "doi": "10.5194/gmd-4-223-2011", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_cloud_3", 
+            "doi": "10.1002/qj.954", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_cloud_4", 
+            "doi": "10.1002/asl.293", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "atmos_gravity_1", 
+            "doi": "10.1256/qj.02.133", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "land_key_1", 
+            "doi": "10.1016/S0168-1923(98)00061-6", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "land_key_2", 
+            "doi": "10.1111/j.1365-3040.1995.tb00628.x", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "land_key_3", 
+            "doi": "10.1016/S0022-1694(96)03127-7", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "land_key_4", 
+            "doi": "10.5194/bg-7-2261-2010", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "land_river_1", 
+            "doi": "10.1175/1087-3562(1998)002<0001:DOTRIP>2.3.CO;2", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_1", 
+            "doi": null, 
+            "bibtex": "\"@article{Jones1997,\n  title={A User\u2019s Guide for SCRIP: A spherical coordinate re-mapping and interpolation package}, \n  author={Jones, P.W.},\n  journal={LA-CC}, \n  volume={98-45}, \n  year={1997}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_1", 
+            "doi": "10.5194/gmd-10-2057-2017", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_2", 
+            "doi": "10.5194/gmd-11-369-2018", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_3", 
+            "doi": "10.1029/2005GB002672", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_4", 
+            "doi": "10.1029/91JD03139", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_5", 
+            "doi": "10.1007/978-94-009-4738-2_5", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_6", 
+            "doi": "10.1029/2010GB003850", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_7", 
+            "doi": "10.5194/gmd-2017-32. ", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_8", 
+            "doi": "10.5194/acp-14-9317-2014", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_9", 
+            "doi": "10.1002/qj.333", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_10", 
+            "doi": null, 
+            "bibtex": "\"@book{woodward2011mineral,\n  title={Mineral dust in HadGEM2},\n  author={Woodward, Stephani},\n  year={2011},\n  publisher={Met Office}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "toplevel_rad_11", 
+            "doi": "10.1029/2003GB002079", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "ocean_1", 
+            "doi": null, 
+            "bibtex": "\"@article{bi2013access,\n  title={ACCESS-OM: the ocean and sea-ice core of the ACCESS coupled model},\n  author={Bi, Daohua and Marsland, Simon J and Uotila, Petteri and O\u2019Farrell, Siobhan and Fiedler, Russell and Sullivan, Arnold and Griffies, Stephen M and Zhou, Xiaobing and Hirst, Anthony C},\n  journal={Aust Meteorol Oceanogr J},\n  volume={63},\n  number={1},\n  pages={213--232},\n  year={2013}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "ocnbgchem_1", 
+            "doi": "10.5194/gmd-6-591-2013", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "ocnbgchem_2", 
+            "doi": "10.5194/gmd-10-2567-2017", 
+            "bibtex": null, 
+            "url": null, 
+            "long_name": null
+        }
+    ]
 }
