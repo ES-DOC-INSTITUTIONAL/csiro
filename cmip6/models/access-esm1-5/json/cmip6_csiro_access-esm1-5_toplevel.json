@@ -1,0 +1,419 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "csiro", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "access-esm1-5", 
+    "topic": "toplevel", 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "ACCESS-ESM1.5"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.keywords": {
+            "values": [
+                "UKCA-CLASSIC, CICE, MOM, MetUM, CABLE, WOMBAT, OASIS3-MCT, CASA-CNP"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.flux_correction.details": {
+            "values": [
+                "No flux correction is used. "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.year_released": {
+            "values": [
+                2019
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_parent": {
+            "values": [
+                "ACCESS1.3"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_differences": {
+            "values": [
+                "Minor atmospheric changes. Updated versions of MOM and CICE. Inclusion of simple land use change scheme to CABLE. Inclusion  carbon cycle for land and ocean."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.previous_name": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.repository": {
+            "values": [
+                "Requires registration - available on request. "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_version": {
+            "values": [
+                "MetUM vn7.3, MOM vn5, CICE vn4.1, CABLE vn2.4 "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran90, C"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.components_structure": {
+            "values": [
+                "Atmospheric and land components are compiled as a single executable, coupled to ocean and sea-ice executables via OASIS3-MCT."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.coupler": {
+            "values": [
+                "OASIS3-MCT: The MCT variant of the OASIS coupler"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_double_flux": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_fluxes_calculation_grid": {
+            "values": [
+                "Atmosphere grid"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_relative_winds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.description": {
+            "values": [
+                "Inherited tuning from ACCESS1.3. Tuned parameters in land carbon scheme to improve LAI simulations. Ocnbgchem parameters tuned to better match observations."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "Carbon budget"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "Sea-ice extent/thickness, LAI"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.energy_balance": {
+            "values": [
+                "Inherited from ACCESS1.3"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance": {
+            "values": [
+                "No additional work done for this beyond attempting to maintain conservation in each component"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.global": {
+            "values": [
+                "Atmosphere model is not formulated to conserve atmospheric energy. It uses instead an energy correction, calculated daily as an energy residual and applied on each timestep as a uniform temperature increment. "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface": {
+            "values": [
+                "No heat is exchanged directly between the atmosphere and ocean. "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface": {
+            "values": [
+                "Designed to minimise non-conservation, but not intrinsically conserved. The atmosphere and land models share a common grid, so there is no horizontal interpolation error. "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface": {
+            "values": [
+                "The atmosphere/sea-ice coupling interface is located immediately below the sea ice surface. Heat is exchanged between the models by means of three fluxes: downwards conduction, top melt and net sublimation. To enable fluxes to be roughly proportionate to underlying ice area, they are passed as local values in which the gridbox mean flux calculated in the atmosphere is divided by the ice fraction field used for the ensuing coupling period. This method has been shown to conserve energy perfectly in theory, but there is an implementation error in the sublimation flux which leads to a loss of conservation. The first-order conservative remapping algorithm of the Spherical Coordinate Remapping and Interpolation Package (SCRIPP) (Jones 1997) is used for atmosphere/sea-ice coupling."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface": {
+            "values": [
+                "The first-order conservative remapping algorithm of the Spherical Coordinate Remapping and Interpolation Package (SCRIPP) (Jones 1997) is used for ocean/sea-ice coupling."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface": {
+            "values": [
+                "No heat is exchanged between the land and ocean. "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.global": {
+            "values": [
+                "A volume conserving first-order Boussinesq approximation is used for the ocean interior and mass fluxes of freshwater at the upper surface for exchanges of precipitation, evaporation, runoff from land, and both the melting and freezing of sea-ice."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface": {
+            "values": [
+                "Water is not intrinsically conserved in the atmosphere/ocean coupling interface."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface": {
+            "values": [
+                "Designed to minimise non-conservation, but not intrinsically conserved. The atmosphere and land models share a common grid, so there is no horizontal interpolation error. "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface": {
+            "values": [
+                "The first-order conservative remapping algorithm of the Spherical Coordinate Remapping and Interpolation Package (SCRIPP) (Jones 1997) is used for atmosphere/sea-ice coupling."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface": {
+            "values": [
+                "A volume conserving first-order Boussinesq approximation is used for the mass fluxes of freshwater at the upper surface for exchanges of the melting and freezing of sea-ice."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.runoff": {
+            "values": [
+                "River water is routed conservatively using the total runoff integrating pathways (TRIP) model of Oki and Sud (1998) to outflow points over the ocean. The river outflow field is interpolated to the ocean grid the using 1st-order conservative remapping, and the result is added to the surface freshwater flux. "
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving": {
+            "values": [
+                "Iceberg calving is not explicity modeled. A simple parameterisation of land snow discharge into ocean mimicks iceberg calving (see snow accumulation)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins": {
+            "values": [
+                "Special treatment of inland drainage basins and lakes to ensure global conservation."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation": {
+            "values": [
+                "Snow accumulation is limited with amounts above a cap redistributed as a runoff flux."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface": {
+            "values": [
+                "A volume conserving first-order Boussinesq approximation is used for the mass fluxes of salt at the upper surface for the exchange with sea-ice."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.name": {
+            "values": [
+                "CMIP v6.2.0 "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information": {
+            "values": [
+                "In concentration-driven experiments, concentration is treated as spatially constant, using the global mean data of Meinshausen et al. (2017). In emission-driven experiments (e.g. esm-piControl) CO2 is a in interactive 3D tracer coupled to terrestrial and marine fluxes and anthropogenic emissions."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information": {
+            "values": [
+                "Concentration is treated as spatially constant, using the global mean data of Meinshausen et al. (2017). "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information": {
+            "values": [
+                "Concentration is treated as spatially constant, using the global mean data of Meinshausen et al. (2017). "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information": {
+            "values": [
+                "3D concentration of ozone is prescribed throughout the troposphere and stratosphere, using the data of Hegglin et al. (in prep). "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information": {
+            "values": [
+                "3D concentration of ozone is prescribed throughout the troposphere and stratosphere, using the data of Hegglin et al. (in prep). "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.equivalence_concentration": {
+            "values": [
+                "Option 3: Ozone depleting gases, including CFC-12, are provided as an equivalence concentration of CFC-12 and all other fluorinated gases are provided as an equivalence concentration of HFC-134a"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information": {
+            "values": [
+                "Equivalent concentrations of CFC-12 and HFC-134a, as provided by Meinshausen et al. (2017), are used to represent the radiative forcing of all fluorinated gases. Concentration is treated as spatially constant, using the global mean data of Meinshausen et al. (2017)."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information": {
+            "values": [
+                "H2SO4 is formed by the gas-phase and aqueous oxidation of precursor gases SO2 and DMS. Emissions of SO2 are taken from anthropogenic sources (Hoesly et al., 2018) and from continuously degassing volcanoes (Dentener et al., 2006). We use the biogenic DMS emission dataset of Spiro et al. (1992), and an interactive marine DMS emission calculated using the flux parameterisation of Liss & Merlivat (1986) and climatological DMS sea water concentration of Lana et al. (2011). "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information": {
+            "values": [
+                "The model uses primary emissions of black carbon aerosol from biomass burning (van Marle et al., 2017) and anthropogenic (Hoesly et al., 2018) sources. Biomass burning emissions are scaled by a factor of 2 in order to achieve reasonable agreement with observed AOD in present-day simulations. "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information": {
+            "values": [
+                "The model uses primary emissions of organic carbon aerosol from biomass burning (van Marle et al., 2017) and anthropogenic (Hoesly et al., 2018) sources, and additionally simulates the formation of secondary organic aerosol (SOA). SOA is formed from the oxidation of terpenes from biogenic (Sindelarova, 2014) and biomass burning (van Marle et al., 2017) sources. "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
+            "values": [
+                "N/A: Not applicable - forcing agent is not included"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.nitrate.additional_information": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information": {
+            "values": [
+                "ACCESS-ESM1.5 uses the cloud prognostic condensate (PC2) scheme (Wilson et al. 2008)."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.RFaci_from_sulfate_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
+            "values": [
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information": {
+            "values": [
+                "Dust emissions are calculated online using wind speed, soil moisture, bare soil fraction and soil properties, using the scheme of Woodward (2011). "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type E: Explosive volcanic aerosol set to constant (average volcano) background"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type E: Explosive volcanic aerosol set to constant (average volcano) background"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.additional_information": {
+            "values": [
+                "A constant background 3D emission of SO2 is used to represent the tropospheric source from both continuously degassing and explosive volcanoes, using the dataset of Dentener et al. (2006). This SO2 feeds into the interactive tropospheric aerosol simulation (see aerosol component description). "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.historical_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Other: N/A"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.future_explosive_volcanic_aerosol_implementation": {
+            "values": [
+                "Type B: Explosive volcanic aerosol returns rapidly to constant (average volcano)"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.additional_information": {
+            "values": [
+                "Stratospheric aerosol is not simulated interactively. Volcanic forcing is imposed on the model's radiation scheme using optical depth in four latitude bands, derived from the CMIP6 dataset. "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision": {
+            "values": [
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information": {
+            "values": [
+                "Primary emissions of sea salt aerosol are calculated online using instantaneous model wind speed with the scheme of Gong (2003). "
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.land_use.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.land_use.crop_change_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.land_use.additional_information": {
+            "values": [
+                "Check with Tilo/Rachel"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.solar.provision": {
+            "values": [
+                "irradiance: Solar irradiance forcing"
+            ]
+        }
+    }
+}
