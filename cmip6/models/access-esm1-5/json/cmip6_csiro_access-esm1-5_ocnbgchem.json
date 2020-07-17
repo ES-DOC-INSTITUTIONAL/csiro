@@ -5,6 +5,166 @@
     "sourceID": "access-esm1-5", 
     "topic": "ocnbgchem", 
     "content": {
+        "cmip6.ocnbgchem.key_properties.name": {
+            "values": [
+                "World Ocean Model of Biogeochemistry And Trophic-dynamics"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.overview": {
+            "values": [
+                "The World Ocean Model of Biogeochemistry And Trophic-dynamics (WOMBAT) model is based on a NPZD (nutrient, phytoplankton, zooplankton and detritus) model with the additions of bio-available iron limitation, dissolved inorganic carbon, calcium carbonate, alkalinity and oxygen. The model has one class each of phytoplankton and zooplankton. The major nutrient in WOMBAT is phoshate.  Phytoplankton growth is a function of temperature, light and nutrient concentrations (phosphate and iron). Oxygen and carbon cycles are coupled to the main nutrient cycle.   Oke et al. 2013, GeosciModelDev (6), and Law et al. 2017, GeosciModelDev (10)."
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.model_type": {
+            "values": [
+                "NPZD: No plankton types"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.elemental_stoichiometry": {
+            "values": [
+                "Fixed: Fixed stoichiometry"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.elemental_stoichiometry_details": {
+            "values": [
+                "Phosphate, oxygen, carbon, iron. "
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.prognostic_variables": {
+            "values": [
+                "Phosphate, phytoplankton, zooplankton, detritus, oxygen, carbonate, dissolved inorganic carbon, natural dissolved inorganic carbon, alkalinity, iron."
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.time_stepping_framework.passive_tracers_transport.method": {
+            "values": [
+                "use ocean model transport time step"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.time_stepping_framework.biology_sources_sinks.method": {
+            "values": [
+                "use specific time step"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.time_stepping_framework.biology_sources_sinks.timestep_if_not_from_ocean": {
+            "values": [
+                900
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.transport_scheme.type": {
+            "values": [
+                "Online"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.transport_scheme.scheme": {
+            "values": [
+                "Use that of ocean model"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.boundary_forcing.atmospheric_deposition": {
+            "values": [
+                "from file (climatology)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.boundary_forcing.river_input": {
+            "values": [
+                "from file (climatology)"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.boundary_forcing.sediments_from_boundary_conditions": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.boundary_forcing.sediments_from_explicit_model": {
+            "values": [
+                "No explicit sediment model. "
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CO2_exchange_type": {
+            "values": [
+                "OMIP protocol"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_present": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.O2_exchange_type": {
+            "values": [
+                "OMIP protocol"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.DMS_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.N2O_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CFC11_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.CFC12_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.SF6_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.13CO2_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.gas_exchange.14CO2_exchange_present": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.carbon_chemistry.type": {
+            "values": [
+                "OMIP protocol"
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.tuning_applied.description": {
+            "values": [
+                "Sinking rate of detritus was tuned to modify the rate of nutrient recycling in the upper ocean and the extent of productivity away from regions of upwelling.  Background level of iron was modified to control extent of productivity in upwelling regions and Southern Ocean.  "
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "Total productivity and flux of preindustrial carbon.\u00a0 "
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "Distribution of productivity in tropics and in the Southern Ocean.  "
+            ]
+        }, 
+        "cmip6.ocnbgchem.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "Flux of preindustrial (natural) carbon.  "
+            ]
+        }, 
         "cmip6.ocnbgchem.tracers.name": {
             "values": [
                 "Phosphate, phytoplankton, zooplankton, detritus, oxygen, carbonate, dissolved inorganic carbon, natural dissolved inorganic carbon, alkalinity, iron."

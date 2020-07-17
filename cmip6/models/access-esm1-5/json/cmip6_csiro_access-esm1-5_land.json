@@ -5,6 +5,81 @@
     "sourceID": "access-esm1-5", 
     "topic": "land", 
     "content": {
+        "cmip6.land.key_properties.name": {
+            "values": [
+                "CABLE2.4"
+            ]
+        }, 
+        "cmip6.land.key_properties.keywords": {
+            "values": [
+                "CABLE, CASA-CNP"
+            ]
+        }, 
+        "cmip6.land.key_properties.overview": {
+            "values": [
+                "CABLE is a one layer two-leaf canopy model, as described in Wang and Leuning (1998) and was formulated on the basis of the multilayer model of Leuning et al. (1995). It accounts for turbulent exchange within the canopy (Raupach et al., 1997). Carbon cycling uses CASA-CNP (Wang et al 2010)."
+            ]
+        }, 
+        "cmip6.land.key_properties.description": {
+            "values": [
+                "Land atmosphere fluxes of water, carbon energy, momentum. Prognostic albedo dependent on vegetation type. LAI dependent on prognostic leaf carbon. Multi-layer snow."
+            ]
+        }, 
+        "cmip6.land.key_properties.land_atmosphere_flux_exchanges": {
+            "values": [
+                "water", 
+                "energy", 
+                "carbon"
+            ]
+        }, 
+        "cmip6.land.key_properties.atmospheric_coupling_treatment": {
+            "values": [
+                "semi-implicit"
+            ]
+        }, 
+        "cmip6.land.key_properties.land_cover": {
+            "values": [
+                "bare soil", 
+                "land ice", 
+                "vegetated", 
+                "lake"
+            ]
+        }, 
+        "cmip6.land.key_properties.land_cover_change": {
+            "values": [
+                "Use of net transitions"
+            ]
+        }, 
+        "cmip6.land.key_properties.tiling": {
+            "values": [
+                "Prescribed vegetation coverage. 13 surface types (10 vegetated). Vegetation types: evergreen needleleaf, evergreen broadleaf, deciduous needleleaf, deciduous broadleaf, shrub, C3 grass, C4 grass, tundra, crop."
+            ]
+        }, 
+        "cmip6.land.key_properties.conservation_properties.energy": {
+            "values": [
+                "CABLE calculates the composite soil-vegetation energy balance, accounting for the radiative and aerodynamic interaction between soil and canopy."
+            ]
+        }, 
+        "cmip6.land.key_properties.timestepping_framework.timestep_dependent_on_atmosphere": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.key_properties.timestepping_framework.time_step": {
+            "values": [
+                1200
+            ]
+        }, 
+        "cmip6.land.key_properties.software_properties.code_version": {
+            "values": [
+                "CABLE2.4"
+            ]
+        }, 
+        "cmip6.land.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran90"
+            ]
+        }, 
         "cmip6.land.grid.name": {
             "values": [
                 "N96L6"
@@ -33,6 +108,577 @@
         "cmip6.land.grid.vertical.total_depth": {
             "values": [
                 5
+            ]
+        }, 
+        "cmip6.land.soil.name": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.land.soil.heat_water_coupling": {
+            "values": [
+                "Limited coupling. Heat capacity depends on soil moisture, latent heat of soil water freezing account for. No direct heat flux associated with soil water flow."
+            ]
+        }, 
+        "cmip6.land.soil.number_of_soil layers": {
+            "values": [
+                6
+            ]
+        }, 
+        "cmip6.land.soil.prognostic_variables": {
+            "values": [
+                "Soil temperature, soil moisture, frozen fraction"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.structure": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.texture": {
+            "values": [
+                "Soil texture map is from the Harmonized World Soil Database."
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.albedo": {
+            "values": [
+                "Soil albedo is prescribed."
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.water_table": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.continuously_varying_soil_depth": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.soil_depth": {
+            "values": [
+                "Six soil layers of depths 0.022, 0.058, 0.154, 0.409, 1.085, 2.872 m "
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.prognostic": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.functions": {
+            "values": [
+                "vegetation type", 
+                "soil humidity"
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.direct_diffuse": {
+            "values": [
+                "distinction between direct and diffuse albedo"
+            ]
+        }, 
+        "cmip6.land.soil.snow_free_albedo.number_of_wavelength_bands": {
+            "values": [
+                2
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.time_step": {
+            "values": [
+                1200
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.tiling": {
+            "values": [
+                "Matches vegetation tiling."
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.vertical_discretisation": {
+            "values": [
+                "Six soil layers of depths 0.022, 0.058, 0.154, 0.409, 1.085, 2.872 m "
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.number_of_ground_water_layers": {
+            "values": [
+                6
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.lateral_connectivity": {
+            "values": [
+                "Other: None"
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.method": {
+            "values": [
+                "Explicit diffusion"
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.number_of_ground_ice_layers": {
+            "values": [
+                6
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.ice_storage_method": {
+            "values": [
+                "Prognostic frozen fraction of saturation"
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.freezing.permafrost": {
+            "values": [
+                "No permafrost."
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.drainage.description": {
+            "values": [
+                "Differentiated drainage and runoff"
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.drainage.types": {
+            "values": [
+                "Gravity drainage"
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.time_step": {
+            "values": [
+                1200
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.tiling": {
+            "values": [
+                "Tiling as per vegetation"
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.vertical_discretisation": {
+            "values": [
+                "Six soil layers of depths 0.022, 0.058, 0.154, 0.409, 1.085, 2.872 m "
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.heat_storage": {
+            "values": [
+                "Explicit diffusion"
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.processes": {
+            "values": [
+                "soil moisture freeze-thaw", 
+                "coupling with snow temperature"
+            ]
+        }, 
+        "cmip6.land.snow.name": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.land.snow.overview": {
+            "values": [
+                "The model computes the snow density, temperature and thickness of three snowpack layers. The following processes are represented: snow deposition, snow albedo, snow accumulation, snow metamorphism and thermal properties, snow melting."
+            ]
+        }, 
+        "cmip6.land.snow.tiling": {
+            "values": [
+                "As per vegetation tiling."
+            ]
+        }, 
+        "cmip6.land.snow.number_of_snow_layers": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.land.snow.density": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.water_equivalent": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.heat_content": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.temperature": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.snow_cover_fractions": {
+            "values": [
+                "ground snow fraction", 
+                "vegetation snow fraction"
+            ]
+        }, 
+        "cmip6.land.snow.processes": {
+            "values": [
+                "snow melting", 
+                "snow freezing"
+            ]
+        }, 
+        "cmip6.land.snow.prognostic_variables": {
+            "values": [
+                "Temperature, thickness, layers, age"
+            ]
+        }, 
+        "cmip6.land.snow.snow_albedo.type": {
+            "values": [
+                "prognostic"
+            ]
+        }, 
+        "cmip6.land.snow.snow_albedo.functions": {
+            "values": [
+                "snow age", 
+                "vegetation type"
+            ]
+        }, 
+        "cmip6.land.vegetation.name": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.land.vegetation.time_step": {
+            "values": [
+                1200
+            ]
+        }, 
+        "cmip6.land.vegetation.dynamic_vegetation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.vegetation.tiling": {
+            "values": [
+                "Static vegetation coverage. 13 surface types (10 vegetated). Vegetation types: evergreen needleleaf, evergreen broadleaf, deciduous needleleaf, deciduous broadleaf, shrub, C3 grass, C4 grass, tundra, crop."
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_representation": {
+            "values": [
+                "Vegetation types"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_types": {
+            "values": [
+                "Other: Deciduous", 
+                "Other: Evergreen", 
+                "Other: Deciduous", 
+                "Other: Evergreen", 
+                "C3 grass", 
+                "C4 grass", 
+                "Other: Shrub", 
+                "Other: Crop", 
+                "Other: Tundra", 
+                "Other: Wetlands"
+            ]
+        }, 
+        "cmip6.land.vegetation.vegetation_time_variation": {
+            "values": [
+                "prescribed (varying from files)"
+            ]
+        }, 
+        "cmip6.land.vegetation.interception": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.land.vegetation.phenology": {
+            "values": [
+                "diagnostic (vegetation map)"
+            ]
+        }, 
+        "cmip6.land.vegetation.phenology_description": {
+            "values": [
+                "Start and end of growing season prescribed by latitude and vegetation type."
+            ]
+        }, 
+        "cmip6.land.vegetation.leaf_area_index": {
+            "values": [
+                "diagnostic"
+            ]
+        }, 
+        "cmip6.land.vegetation.leaf_area_index_description": {
+            "values": [
+                "LAI dependent on prognostic leaf carbon pool and specific leaf area (dependent on vegetation type)."
+            ]
+        }, 
+        "cmip6.land.vegetation.biomass": {
+            "values": [
+                "Other: Canopy height prescribed"
+            ]
+        }, 
+        "cmip6.land.vegetation.biomass_description": {
+            "values": [
+                "Canopy height prescribed by vegetation type."
+            ]
+        }, 
+        "cmip6.land.vegetation.biogeography": {
+            "values": [
+                "Other: N/A"
+            ]
+        }, 
+        "cmip6.land.vegetation.stomatal_resistance": {
+            "values": [
+                "CO2"
+            ]
+        }, 
+        "cmip6.land.vegetation.stomatal_resistance_description": {
+            "values": [
+                "Leuning scheme (Leuning, 1995)"
+            ]
+        }, 
+        "cmip6.land.vegetation.prognostic_variables": {
+            "values": [
+                "Leaf carbon pool"
+            ]
+        }, 
+        "cmip6.land.energy_balance.name": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.land.energy_balance.overview": {
+            "values": [
+                "The energy balance equation is solved for the temperature of the surface which may consist of a combination of surface elements such as vegetation, bare ground, snow and ice."
+            ]
+        }, 
+        "cmip6.land.energy_balance.tiling": {
+            "values": [
+                "As per vegetation tiling."
+            ]
+        }, 
+        "cmip6.land.energy_balance.number_of_surface_temperatures": {
+            "values": [
+                5
+            ]
+        }, 
+        "cmip6.land.energy_balance.evaporation": {
+            "values": [
+                "combined"
+            ]
+        }, 
+        "cmip6.land.energy_balance.processes": {
+            "values": [
+                "transpiration", 
+                "Other: Radiation", 
+                "Other: Sensible heat flux"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.name": {
+            "values": [
+                "CASA-CNP"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.overview": {
+            "values": [
+                "Fossil emissions and ocean exchange are modelled."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.tiling": {
+            "values": [
+                "As per vegetation tiling."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.time_step": {
+            "values": [
+                1200
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.anthropogenic_carbon": {
+            "values": [
+                "Other: N/A"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.prognostic_variables": {
+            "values": [
+                "4 pool cSoil, Vegetation Fractional coverage, LAI and Canopy Height on PFTS. Vegetation Carbon density is a function of canopy height. 3 pool wood products scheme for land-use change. "
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.number_of_carbon_pools": {
+            "values": [
+                4
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.carbon_pools": {
+            "values": [
+                "Leaf, wood, root, labile"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.forest_stand_dynamics": {
+            "values": [
+                "No forest stand dynamics"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_bins": {
+            "values": [
+                "leaves + stems + roots"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.allocation_fractions": {
+            "values": [
+                "function of vegetation type"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.phenology.method": {
+            "values": [
+                "Prescribed start and end of growing season by latitude and by plant functional type"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.litter.number_of_carbon_pools": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.litter.carbon_pools": {
+            "values": [
+                "Metabolic, structural, coarse woody debris"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.soil.number_of_carbon_pools": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.soil.carbon_pools": {
+            "values": [
+                "Microbial, slow, passive"
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.permafrost_carbon.is_permafrost_included": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.land.nitrogen_cycle.name": {
+            "values": [
+                "CASA-CNP"
+            ]
+        }, 
+        "cmip6.land.nitrogen_cycle.time_step": {
+            "values": [
+                1200
+            ]
+        }, 
+        "cmip6.land.river_routing.name": {
+            "values": [
+                "Total Runoff Integrating Pathways (TRIP)"
+            ]
+        }, 
+        "cmip6.land.river_routing.overview": {
+            "values": [
+                "Dynamic river routing scheme (Oki and Sud 1998). The surface and sub-surface runoff fluxes are supplied to an implementation of the TRIP river routing model. "
+            ]
+        }, 
+        "cmip6.land.river_routing.tiling": {
+            "values": [
+                "Kinematic wave model with constant velocity. "
+            ]
+        }, 
+        "cmip6.land.river_routing.time_step": {
+            "values": [
+                3600
+            ]
+        }, 
+        "cmip6.land.river_routing.grid_inherited_from_land_surface": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.land.river_routing.grid_description": {
+            "values": [
+                "Longitude, latitude grid 1.0 degrees in both directions. "
+            ]
+        }, 
+        "cmip6.land.river_routing.number_of_reservoirs": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.land.river_routing.water_re_evaporation": {
+            "values": [
+                "Other: N/A"
+            ]
+        }, 
+        "cmip6.land.river_routing.coupled_to_atmosphere": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.land.river_routing.coupled_to_land": {
+            "values": [
+                "One way coupling surface and subsurface runoff into rivers. "
+            ]
+        }, 
+        "cmip6.land.river_routing.quantities_exchanged_with_atmosphere": {
+            "values": [
+                "Other: N/A"
+            ]
+        }, 
+        "cmip6.land.river_routing.basin_flow_direction_map": {
+            "values": [
+                "present day"
+            ]
+        }, 
+        "cmip6.land.river_routing.flooding": {
+            "values": [
+                "N/A"
+            ]
+        }, 
+        "cmip6.land.river_routing.prognostic_variables": {
+            "values": [
+                "Water storage"
+            ]
+        }, 
+        "cmip6.land.river_routing.oceanic_discharge.discharge_type": {
+            "values": [
+                "direct (large rivers)"
+            ]
+        }, 
+        "cmip6.land.river_routing.oceanic_discharge.quantities_transported": {
+            "values": [
+                "water"
+            ]
+        }, 
+        "cmip6.land.lakes.overview": {
+            "values": [
+                "No explicit lakes model. "
+            ]
+        }, 
+        "cmip6.land.lakes.coupling_with_rivers": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.land.lakes.time_step": {
+            "values": [
+                1200
+            ]
+        }, 
+        "cmip6.land.lakes.method.ice_treatment": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.land.lakes.method.albedo": {
+            "values": [
+                "Other: N/A"
+            ]
+        }, 
+        "cmip6.land.lakes.method.dynamics": {
+            "values": [
+                "No lake dynamics"
+            ]
+        }, 
+        "cmip6.land.lakes.method.dynamic_lake_extent": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.land.lakes.method.endorheic_basins": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.land.lakes.wetlands.description": {
+            "values": [
+                "Treated as saturated surface soil."
             ]
         }
     }
